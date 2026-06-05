@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Information</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 500px;
+      background: rgba(255, 255, 255, 0.12);
+      padding: 40px 30px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .title {
+      font-size: 34px;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #dcdcdc;
+    }
+
+    .info-box {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 25px;
+    }
+
+    .info-box p {
+      font-size: 20px;
+      margin: 12px 0;
+      line-height: 1.6;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #ffd369;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #ffd369;
+      color: #203a43;
+      padding: 14px 30px;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: white;
+      color: #0f2027;
+      transform: scale(1.05);
+    }
+
+    .footer {
+      margin-top: 25px;
+      font-size: 14px;
+      color: #cccccc;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="title">Course Assignment</h1>
+    <p class="subtitle">Student Information</p>
+
+    <div class="info-box">
+      <p><span class="label">Name:</span> Mahmoud Mohammad Khair Mamoun Jamal Al-Din</p>
+      <p><span class="label">Student ID:</span> 3240660</p>
+    </div>
+
+    <a href="home.html" class="btn">Enter Assignment</a>
+
+    <p class="footer">Submitted via GitHub Pages</p>
+  </div>
+
+</body>
+</html>
