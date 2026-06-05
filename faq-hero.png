@@ -1,0 +1,28 @@
+<svg width="80" height="80" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="royalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"></stop>
+      <stop offset="100%" stop-color="#D4AF37"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#royalGradient)" opacity="0.18"></circle>
+
+  <!-- crown -->
+  <path d="M14 28 L22 18 L32 26 L42 18 L50 28 L48 40 H16 Z" fill="#D4AF37" stroke="#B8962E" stroke-width="1.5"></path>
+
+  <!-- crown jewels -->
+  <circle cx="22" cy="24" r="2" fill="#FFF3C4"></circle>
+  <circle cx="32" cy="22" r="2" fill="#FFF3C4"></circle>
+  <circle cx="42" cy="24" r="2" fill="#FFF3C4"></circle>
+
+  <!-- paw -->
+  <circle cx="24" cy="46" r="3" fill="#D4AF37"></circle>
+  <circle cx="32" cy="44" r="3" fill="#D4AF37"></circle>
+  <circle cx="40" cy="46" r="3" fill="#D4AF37"></circle>
+  <circle cx="28" cy="52" r="4" fill="#D4AF37"></circle>
+  <circle cx="36" cy="52" r="4" fill="#D4AF37"></circle>
+
+</svg>

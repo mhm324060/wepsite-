@@ -1,0 +1,23 @@
+<svg width="80" height="80" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="plusGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD166"></stop>
+      <stop offset="100%" stop-color="#F59E0B"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#plusGradient)" opacity="0.15"></circle>
+
+  <!-- star -->
+  <polygon points="32,10 36,22 48,22 38,30 42,42 32,35 22,42 26,30 16,22 28,22" fill="#F59E0B"></polygon>
+
+  <!-- paw -->
+  <circle cx="24" cy="44" r="3" fill="#F59E0B"></circle>
+  <circle cx="32" cy="42" r="3" fill="#F59E0B"></circle>
+  <circle cx="40" cy="44" r="3" fill="#F59E0B"></circle>
+  <circle cx="28" cy="50" r="4" fill="#F59E0B"></circle>
+  <circle cx="36" cy="50" r="4" fill="#F59E0B"></circle>
+
+</svg>
